@@ -331,13 +331,6 @@ footer span a:hover{
     text-decoration: underline;
 }
 
-.bg-music{
-   position: absolute;
-    top: 64%;
-    Left: 0;
-    right: 0;
-   margin: 0 auto;
-}
 .btn{
    background-color: transparent;
     color: #fff;
