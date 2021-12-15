@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Family</title>
+    <link rel="stylesheet" href="C:\Users\MJ Bayla\Desktop\WEB DEVELOPMENT\HTML-Personal Site\CSS\styles1.css">
+    <link rel="shortcut icon" type="image/jpg" href="C:\Users\MJ Bayla\Desktop\WEB DEVELOPMENT\HTML-Personal Site\IMAGES\ICON.ico"/>
+  </head>
+
+  <body class="BODY5">
+    <h1 class="title" align="Center">My Family</h1>
+
+    <div class="slider">
+      <div class="slides">
+        <input type="Sliding" name="Sliding-btn" id="Sliding1">
+        <input type="Sliding" name="Sliding-btn" id="Sliding2">
+        <input type="Sliding" name="Sliding-btn" id="Sliding3">
+        <input type="Sliding" name="Sliding-btn" id="Sliding4">
+
+ <div class="slide first">
+ <img src="IMAGES\Family1.jpg" alt="">
+</div>
+<div class="slide">
+<img src="IMAGES\Family2.jpg" alt="">
+</div>
+<div class="slide">
+<img src="IMAGES\Basketball.jpg" alt="">
+</div>
+<div class="slide">
+<img src="IMAGES\Family4.jpg" alt="">
+</div>   
+<div class="Sliding-Image">
+<div class="Image-btn1"></div>
+<div class="Image-btn2"></div>
+<div class="Image-btn3"></div>
+<div class="Image-btn4"></div>
+</div>  
+</div>
+</div> 
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('Sliding' + counter).checked = true;
+      counter++;
+      if(counter > 4){
+        counter = 1;
+      }
+    }, 1500);
+    </script>
+
+  </body>
+</html>
+      
